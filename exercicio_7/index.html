@@ -1,0 +1,32 @@
+<!--Crie um arquivo HTML e estilize um formulário de login com dois campos de entrada (<input>), um botão de envio (<button>) e uma imagem de fundo. Adicione uma borda sólida com 1 pixel e cor cinza claro em cada campo de entrada e no botão de envio. Adicione também um border-radius de 5 pixels em todos os elementos do formulário. Estilize o botão de envio com uma cor de fundo diferente e uma cor de texto diferente. Utilize as propriedades margin, padding, border, border-radius e background-color para estilizar o formulário. É possível, nesse momento, criar o formulário com uma `div` ou com a tag `form`-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 7</title>
+</head>
+<body>
+    <div>
+
+        <div class="form-box">
+            <h2>Login</h2>
+            <form action="#">
+            <div class="input-group">
+                <label for="nome">Email ou CPF: </label>
+                <input type="text" id="login" placeholder="Login: " required>
+            </div>
+
+            <div class="input-group">
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha" placeholder="Digite a sua senha" required>
+            </div>
+
+            <div class="input-group">
+                <button>Entrar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

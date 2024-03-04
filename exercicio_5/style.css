@@ -1,0 +1,26 @@
+div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+}
+
+li:first-child { 
+    background-color: rgb(185, 72, 129);
+    color: black;
+ }
+
+ li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+ }
+
+ li:last-child {
+    background-color: rgb(185, 72, 129);
+    color: black;
+    border: none;
+ }
